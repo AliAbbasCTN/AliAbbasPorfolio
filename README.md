@@ -41,13 +41,13 @@ To run this project locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/portfolio-website.git
+   git clone https://github.com/AliAbbasCTN/AliAbbasPorfolio.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd portfolio-website
+   cd AliAbbasPorfolio
    ```
 
 3. Install dependencies (if applicable):
@@ -117,9 +117,9 @@ For inquiries, collaboration, or professional opportunities:
 
 **Ali Abbas**
 
-* Email: [your-email@example.com](mailto:your-email@example.com)
-* LinkedIn: your-linkedin-profile
-* GitHub: your-github-profile
+* Email: bscs24f06@namal.edu.pk
+* LinkedIn: https://www.linkedin.com/in/ali-abbas-010067353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+
 
 ---
 
