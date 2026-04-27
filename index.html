@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ali Abbas - Professional Web Developer Portfolio. Specializing in responsive websites, console apps, and e-commerce systems.">
+    <title>Ali Abbas | Professional Web Developer Portfolio</title>
+    <link rel="icon" type="image/png" href="A.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="Ali7.png" alt="Ali Abbas - Web Developer">
+            <div>
+                <h2>Ali Abbas</h2>
+                <p>Web Developer</p>
+            </div>
+        </div>
+        
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/ali-abbas-010067353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/AliAbbasCTN" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://x.com/AliAbbasctn?t=rP2SVr39UzPgfDLH2ssPtg&s=09" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+        
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="#about" class="active"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+                <li><a href="#resume"><i class="fas fa-file-alt"></i> Resume</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="theme-switch">
+            <div class="theme-switch-wrapper">
+                <span>Dark</span>
+                <label class="theme-switch">
+                    <input type="checkbox" id="theme-checkbox">
+                    <span class="theme-slider"></span>
+                </label>
+                <span>Light</span>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section id="about" class="visible">
+            <h2>About Me</h2>
+            <p>I'm a Computer Science student specializing in Web Development with a passion for creating modern, interactive, and user-friendly web experiences. I enjoy solving complex problems and turning ideas into reality through clean, efficient code.</p>
+            
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="skill-name">HTML/CSS</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                    <div class="skill-level">Advanced</div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div class="skill-name">JavaScript</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                    <div class="skill-level">Advanced</div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="skill-name">React</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                    <div class="skill-level">Proficient</div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-node"></i>
+                        </div>
+                        <div class="skill-name">Node.js</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                    <div class="skill-level">Proficient</div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="skill-name">Database Management</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                    <div class="skill-level">Intermediate</div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="skill-name">Responsive Design</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                    <div class="skill-level">Expert</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="projects-header">
+                <h2>Projects</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="cplusplus">C++</button>
+                    <button class="filter-btn" data-filter="ai">AI/ML</button>
+                </div>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="codeElevate-home.jpeg" alt="CodeElevate Project Screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>CodeElevate</h3>
+                        <p>Responsive portfolio website with modern UI/UX design, smooth animations, and optimized performance. Built with HTML, CSS, and JavaScript.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://codelevate-tech.netlify.app/"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/AliAbbasCTN/CodeElevate.git"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="landing page.jpeg" alt="Fitness Landing Page Screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>Fitness Landing Page</h3>
+                        <p>Clean, conversion-focused landing page design promoting fitness services with optimized user flow and modern design principles.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>UI/UX</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://alifitness.netlify.app/"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/AliAbbasCTN/fitness-landing-page.git"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="cplusplus">
+                    <div class="project-img">
+                        <img src="tetris game .png" alt="Tetris Game Screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>Tetris Game</h3>
+                        <p>Console-based C++ Tetris game implementing programming fundamental principles, game logic, and efficient memory management.</p>
+                        <div class="project-tags">
+                            <span>C++</span>
+                            <span>OOP</span>
+                            <span>Game Development</span>
+                        </div>
+                       <div class="project-links">
+    <a href="https://aliabbasctn.github.io/Tetris-Game-C-/" target="_blank">
+        <i class="fas fa-external-link-alt"></i> View Project
+    </a>
+    <a href="https://github.com/AliAbbasCTN/Tetris-Game-C-" target="_blank">
+        <i class="fab fa-github"></i>  Code
+    </a>
+</div>
+
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="cplusplus ai">
+                    <div class="project-img">
+                        <img src="smartshop.png" alt="Smart Shopping System Screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>Smart Shopping System</h3>
+                        <p>Console-based e-commerce system with inventory management, user authentication, and basic AI chatbot support for customer service.</p>
+                        <div class="project-tags">
+                            <span>C++</span>
+                            <span>AI</span>
+                            <span>Data Structures</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="disabled"><i class="fas fa-external-link-alt"></i> Demo Unavailable</a>
+                            <a href="#"><i class="fab fa-github"></i> Code (Private)</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web ai">
+                    <div class="project-img">
+                        <img src="BG1.png" alt="AI Background Remover Screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>AI Background Remover</h3>
+                        <p>Web application utilizing AI technology to remove image backgrounds with a user-friendly interface and real-time processing capabilities.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>AI Integration</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="disabled"><i class="fas fa-external-link-alt"></i> In Development</a>
+                            <a href="#"><i class="fab fa-github"></i> Code (Private)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="resume">
+            <h2>Resume</h2>
+            <div class="resume-container">
+                <a href="Ali Resume.pdf" download="Ali_Abbas_Resume.pdf" class="resume-download">
+                    <i class="fas fa-download"></i> Download PDF
+                </a>
+                <iframe src="Ali Resume.pdf" title="Ali Abbas Resume"></iframe>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                
+                <button type="submit">Send Message</button>
+                
+                <div class="form-status success" id="form-success">
+                    Thank you for your message! I'll get back to you soon.
+                </div>
+                
+                <div class="form-status error" id="form-error">
+                    There was an error sending your message. Please try again.
+                </div>
+            </form>
+        </section>
+
+        <footer>
+            <p>© 2025 Ali Abbas | Connect with me</p>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/ali-abbas-010067353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+                <a href="https://github.com/AliAbbasCTN">GitHub</a>
+                <a href="https://x.com/AliAbbasctn?t=rP2SVr39UzPgfDLH2ssPtg&s=09">Twitter</a>
+                <a href="mailto:aliabbasctn27@example.com">Email</a>
+            </div>
+        </footer>
+    </main>
+</div>
+
+<a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+<script src="script.js"></script>
+</body>
+</html>
