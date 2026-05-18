@@ -51,7 +51,7 @@ The design prioritises clarity, performance, and user experience. Every section 
 
 | Environment | URL |
 |---|---|
-| Production | 🔗 [your-portfolio-url.netlify.app](#) *(update with your live URL)* |
+| Production | 🔗 [https://aliabbassortfolio.netlify.app/] |
 
 ---
 
@@ -242,7 +242,7 @@ I am open to freelance engagements, collaborative projects, and professional dis
 | 💼 LinkedIn | [Ali Abbas](https://www.linkedin.com/in/ali-abbas-010067353) |
 | 🐙 GitHub | [@AliAbbasCTN](https://github.com/AliAbbasCTN) |
 | 🐦 Twitter / X | [@AliAbbasctn](https://x.com/AliAbbasctn) |
-| 📧 Email | bscs24f06@namal.edu. |
+| 📧 Email | bscs24f06@namal.edu.pk |
 
 ---
 
