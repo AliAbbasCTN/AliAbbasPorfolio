@@ -258,6 +258,6 @@ You are free to use, fork, modify, and distribute this project for personal or c
 
 **Designed & developed with dedication by Ali Abbas — 2025**
 
-*If you found this project useful or inspiring, consider leaving a ⭐ on the repository.*
+*If you found this project useful or inspiring, consider leaving a ⭐ on the repository*
 
 </div>
